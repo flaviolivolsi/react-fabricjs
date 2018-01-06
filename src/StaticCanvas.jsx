@@ -1,12 +1,13 @@
 'use strict';
 
-import React, { PropTypes } from 'react';
+import React, { Component } from 'react';
+import PropTypes            from 'prop-types';
 import {fabric} from 'fabric';
 import diff from 'deep-diff';
 import collection from './mixin/collection.js';
 import observable from './mixin/observable.js';
 
-export default class StaticCanvas extends React.Component {
+export default class StaticCanvas extends Component {
 	constructor(props, context) {
 		super(props, context);
 
