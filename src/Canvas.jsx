@@ -1,6 +1,6 @@
 'use strict';
 
-import { PropTypes } from 'react';
+import { PropTypes } from 'prop-types';
 import StaticCanvas from './StaticCanvas.jsx';
 
 export default class Canvas extends StaticCanvas {
