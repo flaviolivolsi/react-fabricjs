@@ -1,6 +1,6 @@
 'use strict';
 
-import {PropTypes} from 'react';
+import {PropTypes} from 'prop-types';
 import Text from './Text';
 import {fabric} from 'fabric';
 
